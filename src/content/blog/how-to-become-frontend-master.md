@@ -1,6 +1,6 @@
 ---
 draft: false
-title: AAAAA
+title: An updated title
 snippet: >-
     Ornare cum cursus laoreet sagittis nunc fusce posuere per euismod dis
     vehicula a, semper fames lacus maecenas dictumst pulvinar neque enim non
