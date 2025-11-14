@@ -11,7 +11,7 @@ const blogCollection = defineCollection({
       src: z.string(),
       alt: z.string(),
     }),
-    publishDate: z.string().transform(str => new Date(str)),
+    publishDate: z.iso.datetime(),
     author: z.string().default('Astroship'),
     category: z.string(),
     tags: z.array(z.string()),
@@ -27,7 +27,7 @@ const teamCollection = defineCollection({
       src: z.string(),
       alt: z.string(),
     }),
-    publishDate: z.string().transform(str => new Date(str)),
+    publishDate: z.iso.datetime(),
   }),
 });
 
